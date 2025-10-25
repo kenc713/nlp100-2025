@@ -5,8 +5,8 @@ Param(
     )
 
 # 引数の確認
-Write-Host "Chapter Number: $ChapterNumber"
-Write-Host "Answer Number: $AnswerNumber"
+# Write-Host "Chapter Number: $ChapterNumber"
+# Write-Host "Answer Number: $AnswerNumber"
 
 # uv runで実行
 uv run -m "chapter$ChapterNumber.ans$AnswerNumber"
